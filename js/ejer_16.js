@@ -1,1 +1,1 @@
-compra= 108.000
+console.log("Ejercicio 16")
