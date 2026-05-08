@@ -1,17 +1,10 @@
-# Validación de usuario y contraseña predefinidos
+usuario_correcto = "admin";
+contrasena_correcta = "1234";
 
-# Credenciales predefinidas
-usuario_correcto = "admin"
-contraseña_correcto = "1234"
-
-# Solicitar entrada del usuario
-print("=== Ingreso al Sistema ===\n")
-
-usuario_ingresado = input("Usuario: ")
-contraseña_ingresado = input("Contraseña: ")
-
-# Validar credenciales
-if usuario_ingresado == usuario_correcto and contraseña_ingresado == contraseña_correcto:
-    print("\n✓ Acceso concedido. ¡Bienvenido!")
+usuario = "admin";
+contrasena = "1234";
+if (usuario == usuario_correcto and contrasena == contrasena_correcta):
+    print("Acceso concedido")
 else:
-    print("\n✗ Usuario o contraseña incorrectos.")
+    print("Acceso denegado")
+    
