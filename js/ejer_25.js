@@ -23,5 +23,3 @@ console.log("tipo de cliente no válido")
 }
 console.log("descuento: " + descuento)
 console.log("total: " + total)
-
-
